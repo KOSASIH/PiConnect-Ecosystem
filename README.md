@@ -1,2 +1,2 @@
 # PiConnect-Ecosystem
-The PiConnect-Ecosystem repository serves as the central hub for the development of the PiConnect project, a universal payment and rewards ecosystem that integrates the Pi Network with various platforms.
+The PiConnect-Ecosystem repository serves as the central hub for the development of the PiConnect project, a universal payment and rewards ecosystem that integrates the Pi Network with various platforms. This repository will contain the source code, documentation, and resources necessary for building and deploying features such as a universal payment gateway, social media tipping system, gaming integration, financial services, and more.
