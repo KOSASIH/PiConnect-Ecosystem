@@ -1,4 +1,4 @@
-// controllers/charityController.js
+// src/backend/controllers/charityController.js
 const Charity = require('../models/charityModel');
 
 // Create a new charity
@@ -11,10 +11,14 @@ exports.createCharity = async (req, res) => {
     }
 
     try {
+        // Create a new charity
         const newCharity = new Charity({ name, description });
         await newCharity.save();
+
+        // Respond with success
         res.status(201).send({ message: 'Charity created successfully', charity: newCharity });
     } catch (error) {
+        console.error('Charity creation error:', error);
         res.status(500).send({ message: 'Charity creation failed', error });
     }
 };
@@ -25,6 +29,7 @@ exports.getAllCharities = async (req, res) => {
         const charities = await Charity.find();
         res.status(200).send(charities);
     } catch (error) {
+        console.error('Error retrieving charities:', error);
         res.status(500).send({ message: 'Failed to retrieve charities', error });
     }
 };
@@ -40,6 +45,7 @@ exports.getCharityById = async (req, res) => {
         }
         res.status(200).send(charity);
     } catch (error) {
+        console.error('Error retrieving charity:', error);
         res.status(500).send({ message: 'Failed to retrieve charity', error });
     }
 };
@@ -62,6 +68,7 @@ exports.updateCharity = async (req, res) => {
 
         res.status(200).send({ message: 'Charity updated successfully', charity: updatedCharity });
     } catch (error) {
+        console.error('Charity update error:', error);
         res.status(500).send({ message: 'Charity update failed', error });
     }
 };
@@ -77,6 +84,7 @@ exports.deleteCharity = async (req, res) => {
         }
         res.status(200).send({ message: 'Charity deleted successfully' });
     } catch (error) {
+        console.error('Charity deletion error:', error);
         res.status(500).send({ message: 'Charity deletion failed', error });
     }
 };
