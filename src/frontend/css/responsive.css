@@ -1,0 +1,80 @@
+/* Responsive Design Styles */
+
+/* General Styles for Mobile Devices */
+body {
+    padding: 0 10px; /* Add padding for mobile */
+}
+
+/* Header Styles */
+header {
+    padding: 40px 10px; /* Adjust padding for smaller screens */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Smaller font size for mobile */
+}
+
+header p {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+}
+
+/* Main Content Styles */
+.container {
+    padding: 10px; /* Reduce padding for mobile */
+}
+
+/* Charity Card Styles */
+.charity-card {
+    margin: 10px 0; /* Stack cards vertically on mobile */
+}
+
+/* Footer Styles */
+footer {
+    padding: 15px 0; /* Adjust footer padding for mobile */
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        padding: 50px 20px; /* Adjust padding for tablets */
+    }
+
+    header h1 {
+        font-size: 2.8rem; /* Slightly larger font size for tablets */
+    }
+
+    header p {
+        font-size: 1.4rem; /* Slightly larger font size for tablets */
+    }
+
+    .charity-card {
+        margin: 15px; /* Add margin for cards on tablets */
+    }
+
+    footer {
+        padding: 20px 0; /* Adjust footer padding for tablets */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    header {
+        padding: 60px 20px; /* Original padding for desktops */
+    }
+
+    header h1 {
+        font-size: 3rem; /* Original font size for desktops */
+    }
+
+    header p {
+        font-size: 1.5rem; /* Original font size for desktops */
+    }
+
+    .charity-card {
+        margin: 20px; /* Original margin for cards on desktops */
+    }
+
+    footer {
+        padding: 25px 0; /* Original footer padding for desktops */
+    }
+}
