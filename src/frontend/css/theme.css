@@ -1,0 +1,85 @@
+/* Base styles for both themes */
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme Styles */
+.light-mode {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --border-color: #dee2e6;
+}
+
+.light-mode body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.light-mode a {
+    color: var(--primary-color);
+}
+
+.light-mode button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+}
+
+.light-mode input,
+.light-mode textarea {
+    background-color: #f8f9fa;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Dark Theme Styles */
+.dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --primary-color: #bb86fc;
+    --secondary-color: #3700b3;
+    --border-color: #333333;
+}
+
+.dark-mode body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.dark-mode a {
+    color: var(--primary-color);
+}
+
+.dark-mode button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #1e1e1e;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Utility Classes */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: var(--secondary-color);
+}
