@@ -1,0 +1,42 @@
+[
+    {
+        "transactionId": "tx001",
+        "userId": "user123",
+        "charityId": "charity456",
+        "amount": 50.0,
+        "timestamp": "2023-10-01T12:00:00Z",
+        "paymentMethod": "credit_card",
+        "status": "completed",
+        "location": "New York, USA"
+    },
+    {
+        "transactionId": "tx002",
+        "userId": "user124",
+        "charityId": "charity789",
+        "amount": 25.0,
+        "timestamp": "2023-10-01T12:05:00Z",
+        "paymentMethod": "paypal",
+        "status": "completed",
+        "location": "Los Angeles, USA"
+    },
+    {
+        "transactionId": "tx003",
+        "userId": "user125",
+        "charityId": "charity456",
+        "amount": 100.0,
+        "timestamp": "2023-10-01T12:10:00Z",
+        "paymentMethod": "bank_transfer",
+        "status": "pending",
+        "location": "Chicago, USA"
+    },
+    {
+        "transactionId": "tx004",
+        "userId": "user123",
+        "charityId": "charity456",
+        "amount": 75.0,
+        "timestamp": "2023-10-01T12:15:00Z",
+        "paymentMethod": "credit_card",
+        "status": "completed",
+        "location": "New York, USA"
+    }
+]
