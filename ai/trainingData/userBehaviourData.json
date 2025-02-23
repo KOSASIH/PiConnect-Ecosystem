@@ -1,0 +1,36 @@
+[
+    {
+        "userId": "user123",
+        "timestamp": "2023-10-01T12:00:00Z",
+        "action": "donate",
+        "amount": 50.0,
+        "charityId": "charity456",
+        "location": "New York, USA",
+        "device": "mobile"
+    },
+    {
+        "userId": "user124",
+        "timestamp": "2023-10-01T12:05:00Z",
+        "action": "view",
+        "charityId": "charity789",
+        "location": "Los Angeles, USA",
+        "device": "desktop"
+    },
+    {
+        "userId": "user125",
+        "timestamp": "2023-10-01T12:10:00Z",
+        "action": "share",
+        "charityId": "charity456",
+        "location": "Chicago, USA",
+        "device": "tablet"
+    },
+    {
+        "userId": "user123",
+        "timestamp": "2023-10-01T12:15:00Z",
+        "action": "comment",
+        "charityId": "charity456",
+        "comment": "Great cause!",
+        "location": "New York, USA",
+        "device": "mobile"
+    }
+]
