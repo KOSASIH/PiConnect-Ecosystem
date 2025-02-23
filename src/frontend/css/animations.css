@@ -1,0 +1,140 @@
+/* Base transition styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Fade In Animation */
+.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Fade Out Animation */
+.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Slide In Animation */
+.slide-in {
+    animation: slideIn 0.5s ease-in forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Slide Out Animation */
+.slide-out {
+    animation: slideOut 0.5s ease-out forwards;
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+/* Bounce Animation */
+.bounce {
+    animation: bounce 0.6s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Scale Up Animation */
+.scale-up {
+    animation: scaleUp 0.3s ease-in forwards;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Scale Down Animation */
+.scale-down {
+    animation: scaleDown 0.3s ease-out forwards;
+}
+
+@keyframes scaleDown {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}
+
+/* Rotate Animation */
+.rotate {
+    animation: rotate 0.5s ease-in-out forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Utility Classes for Transitions */
+.transition {
+    transition: all 0.3s ease;
+}
+
+.transition-fast {
+    transition: all 0.2s ease;
+}
+
+.transition-slow {
+    transition: all 0.5s ease;
+}
