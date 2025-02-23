@@ -1,0 +1,47 @@
+/* AiRecommendations.css */
+
+.ai-recommendations {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+    font-size: 16px;
+    color: #666;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.recommendation-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.recommendation-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.recommendation-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.recommendation-link {
+    display: inline-block;
+    margin-top: 5px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.recommendation-link:hover {
+    text-decoration: underline;
+}
