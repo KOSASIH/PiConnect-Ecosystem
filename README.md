@@ -61,7 +61,7 @@ To get started with the PiConnect-Ecosystem, follow these steps:
 
 ## Usage
 
-Once the application is running, you can access the API endpoints and frontend interface. Refer to the [API Documentation](docs/API.md) for detailed information on available endpoints and their usage.
+Once the application is running, you can access the API endpoints and frontend interface. Refer to the [API Documentation](docs/api_reference.md) for detailed information on available endpoints and their usage.
 
 ### Example API Call
 
