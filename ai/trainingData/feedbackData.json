@@ -1,0 +1,62 @@
+[
+    {
+        "userId": "user1",
+        "feedback": "I absolutely love this product! It has changed my life for the better.",
+        "rating": 5,
+        "timestamp": "2023-10-01T10:00:00Z"
+    },
+    {
+        "userId": "user2",
+        "feedback": "The service was okay, but I expected more features.",
+        "rating": 3,
+        "timestamp": "2023-10-02T11:15:00Z"
+    },
+    {
+        "userId": "user3",
+        "feedback": "I had a terrible experience. The product did not work as advertised.",
+        "rating": 1,
+        "timestamp": "2023-10-03T12:30:00Z"
+    },
+    {
+        "userId": "user4",
+        "feedback": "Great value for the price! Highly recommend it to others.",
+        "rating": 4,
+        "timestamp": "2023-10-04T09:45:00Z"
+    },
+    {
+        "userId": "user5",
+        "feedback": "Not satisfied with the customer support. They were unhelpful.",
+        "rating": 2,
+        "timestamp": "2023-10-05T14:20:00Z"
+    },
+    {
+        "userId": "user6",
+        "feedback": "This is the best purchase I've made this year! Fantastic quality.",
+        "rating": 5,
+        "timestamp": "2023-10-06T08:00:00Z"
+    },
+    {
+        "userId": "user7",
+        "feedback": "I like the product, but it could use some improvements.",
+        "rating": 3,
+        "timestamp": "2023-10-07T15:30:00Z"
+    },
+    {
+        "userId": "user8",
+        "feedback": "Absolutely terrible! I want a refund.",
+        "rating": 1,
+        "timestamp": "2023-10-08T10:10:00Z"
+    },
+    {
+        "userId": "user9",
+        "feedback": "Decent product, but the delivery was late.",
+        "rating": 3,
+        "timestamp": "2023-10-09T13:25:00Z"
+    },
+    {
+        "userId": "user10",
+        "feedback": "I am very happy with my purchase. Will buy again!",
+        "rating": 5,
+        "timestamp": "2023-10-10T16:00:00Z"
+    }
+]
