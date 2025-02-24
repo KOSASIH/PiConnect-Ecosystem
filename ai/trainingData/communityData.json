@@ -1,0 +1,93 @@
+{
+    "members": [
+        {
+            "memberId": "member1",
+            "name": "Alice",
+            "joinDate": "2023-01-15",
+            "isActive": true,
+            "contributions": 10,
+            "eventsParticipated": ["event1", "event2"]
+        },
+        {
+            "memberId": "member2",
+            "name": "Bob",
+            "joinDate": "2023-02-20",
+            "isActive": true,
+            "contributions": 5,
+            "eventsParticipated": ["event1"]
+        },
+        {
+            "memberId": "member3",
+            "name": "Charlie",
+            "joinDate": "2023-03-10",
+            "isActive": false,
+            "contributions": 0,
+            "eventsParticipated": []
+        },
+        {
+            "memberId": "member4",
+            "name": "David",
+            "joinDate": "2023-04-05",
+            "isActive": true,
+            "contributions": 8,
+            "eventsParticipated": ["event2", "event3"]
+        }
+    ],
+    "events": [
+        {
+            "eventId": "event1",
+            "title": "Community Meetup",
+            "description": "A gathering for community members to discuss ideas and projects.",
+            "date": "2023-10-01",
+            "participants": ["member1", "member2"]
+        },
+        {
+            "eventId": "event2",
+            "title": "Online Workshop",
+            "description": "An interactive workshop on community building.",
+            "date": "2023-10-15",
+            "participants": ["member1", "member4"]
+        },
+        {
+            "eventId": "event3",
+            "title": "Charity Event",
+            "description": "A charity event to raise funds for local causes.",
+            "date": "2023-10-20",
+            "participants": ["member4"]
+        }
+    ],
+    "interactions": [
+        {
+            "interactionId": "interaction1",
+            "memberId": "member1",
+            "eventId": "event1",
+            "action": "comment",
+            "content": "Excited for this meetup!",
+            "timestamp": "2023-09-25T10:00:00Z"
+        },
+        {
+            "interactionId": "interaction2",
+            "memberId": "member2",
+            "eventId": "event1",
+            "action": "like",
+            "content": null,
+            "timestamp": "2023-09-26T11:15:00Z"
+        },
+        {
+            "interactionId": "interaction3",
+            "memberId": "member4",
+            "eventId": "event2",
+            "action": "register",
+            "content": null,
+            "timestamp": "2023-09-27T09:30:00Z"
+        },
+        {
+            "interactionId": "interaction4",
+            "memberId": "member1",
+            "eventId": "event3",
+            "action": "share",
+            "content": "Looking forward to the charity event!",
+            "timestamp": "2023-09-28T14:00:00Z"
+        }
+    ]
+}
